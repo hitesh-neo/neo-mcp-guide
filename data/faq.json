@@ -1,0 +1,39 @@
+{
+  "id": "faq",
+  "title": "FAQs",
+  "blocks": [
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What is NeoSapien MCP?",
+          "a": "MCP connects your AI assistant to your NeoSapien memories. Your AI can search, retrieve and reference everything you have recorded — without copy-pasting or switching apps."
+        },
+        {
+          "q": "Which AI tools are supported?",
+          "a": "Any AI app that supports the Model Context Protocol works, including Claude Desktop, Cursor and other MCP-compatible assistants."
+        },
+        {
+          "q": "Do I need to set it up every time?",
+          "a": "No. Once you add the NeoSapien MCP to your AI app, it stays configured. You only need to restart the app after the initial setup."
+        },
+        {
+          "q": "Is my data safe?",
+          "a": "Yes. Your memories stay in your NeoSapien account and are only accessed through your own API key. Nothing is shared without your request."
+        },
+        {
+          "q": "What if my AI says it cannot find memories?",
+          "a": "Add 'from NeoSapien MCP' to your prompt so the AI queries your memories. If it still fails, restart your AI app so the MCP loads on startup."
+        },
+        {
+          "q": "How do I get my API key?",
+          "a": "Open the NeoSapien app and copy your API key from your account settings. Paste it into your AI app's MCP configuration."
+        },
+        {
+          "q": "Can I use the same account across multiple AI tools?",
+          "a": "Yes. The same NeoSapien account and API key work across every AI tool you connect, so your memories stay in sync everywhere."
+        }
+      ]
+    }
+  ]
+}

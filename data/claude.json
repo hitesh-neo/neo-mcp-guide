@@ -1,0 +1,431 @@
+{
+  "id": "claude",
+  "title": "Claude",
+  "appTitle": "Claude MCP",
+  "brand": "Claude",
+  "tabs": [
+    {
+      "id": "web",
+      "label": "Web",
+      "headerCard": {
+        "icon": "stars",
+        "title": "Requires laptop for setup",
+        "subtitle": "Works everywhere once connected."
+      },
+      "blocks": [
+        {
+          "type": "step",
+          "n": 1,
+          "html": "Open <b>claude.ai</b> in your laptop browser"
+        },
+        {
+          "type": "step",
+          "n": 2,
+          "html": "Click Customize in the left sidebar",
+          "image": "assets/guides/claude-web/step-1.png"
+        },
+        {
+          "type": "step",
+          "n": 3,
+          "html": "Select Connectors from the menu",
+          "image": "assets/guides/claude-web/step-2.png"
+        },
+        {
+          "type": "step",
+          "n": 4,
+          "html": "Click + then Add custom connector",
+          "image": "assets/guides/claude-web/step-3.png"
+        },
+        {
+          "type": "step",
+          "n": 5,
+          "html": "Add name &amp; Paste the server URL:<br><b>https://api.neosapien.xyz/mcp</b>",
+          "image": "assets/guides/claude-web/step-4.png"
+        },
+        {
+          "type": "step",
+          "n": 6,
+          "html": "Click “Add”",
+          "image": "assets/guides/claude-web/step-5.png"
+        },
+        {
+          "type": "step",
+          "n": 7,
+          "html": "Select NeoSapien from connectors list and tap “Connect” to sign in to NeoSapien account (OAuth)",
+          "image": "assets/guides/claude-web/step-6.png"
+        },
+        {
+          "type": "step",
+          "n": 8,
+          "html": "Sign in to NeoSapien when prompted (OAuth)",
+          "image": "assets/guides/claude-web/step-7.png"
+        },
+        {
+          "type": "step",
+          "n": 9,
+          "html": "Open chat, enable NeoSapien &amp; try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
+          "image": "assets/guides/claude-web/step-8.png"
+        },
+        {
+          "type": "step",
+          "n": 10,
+          "html": "Congrats NeoSapien is now connected to Claude."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "If NeoSapien MCP doesn’t work or appear in the chat, do one of these:",
+          "html": "<ul><li>Add “<span class=\"grad\">from NeoSapien</span>” to your message</li><li>Close the tab and reopen Claude</li><li>Re-authenticate with the existing NeoSapien account</li><li>Remove the NeoSapien from connectors and add it again.</li></ul>"
+        },
+        {
+          "type": "heading",
+          "text": "Here’s what it does for you",
+          "sub": "You ask, Neo 1 recalls, your AI does the work. Things you can do:"
+        },
+        {
+          "type": "usecases",
+          "groups": [
+            {
+              "items": [
+                {
+                  "title": "Catch up on your day",
+                  "desc": "“Summarise everything I said today.”"
+                },
+                {
+                  "title": "Draft your replies",
+                  "desc": "“Write the follow up email on what I owe Subodh”"
+                },
+                {
+                  "title": "Prep for what’s next",
+                  "desc": "“Prep me for my meeting with Mohit, what did he ask last time?”"
+                },
+                {
+                  "title": "Recall any detail",
+                  "desc": "“What’s the medicine I discussed for my father?”"
+                },
+                {
+                  "title": "Turn talk into to-dos",
+                  "desc": "“Make a task list from my last daily standup”"
+                },
+                {
+                  "title": "Work across your tools",
+                  "desc": "“Add those tasks to my Notion.” Your AI has both Neo 1 and your other apps."
+                },
+                {
+                  "title": "Export data",
+                  "desc": "\"Export all memories from yesterday as a CSV\"",
+                  "icon": "export"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "title": "Not getting results?",
+                  "desc": "Add “from NeoSapien” to your message.",
+                  "icon": "stars"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "linklist",
+          "items": [
+            {
+              "label": "Troubleshooting",
+              "href": "#/troubleshooting",
+              "icon": "question"
+            },
+            {
+              "label": "FAQs",
+              "href": "#/faq",
+              "icon": "chat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "app",
+      "label": "Desktop App",
+      "headerCard": {
+        "variant": "success",
+        "title": "Requires laptop for setup",
+        "html": "Works everywhere once connected."
+      },
+      "blocks": [
+        {
+          "type": "step",
+          "n": 1,
+          "title": "Download the Claude Desktop App",
+          "html": "Download and open Claude Desktop App from <a href=\"https://claude.ai/download\">claude.ai/download</a>"
+        },
+        {
+          "type": "step",
+          "n": 2,
+          "title": "Click Customize in the left sidebar",
+          "html": "Click Customize in the left sidebar",
+          "image": "assets/guides/claude-app/step-1.png"
+        },
+        {
+          "type": "step",
+          "n": 3,
+          "title": "Select Connectors from the menu",
+          "html": "Select Connectors from the menu",
+          "image": "assets/guides/claude-app/step-2.png"
+        },
+        {
+          "type": "step",
+          "n": 4,
+          "title": "Click + then Add custom connector",
+          "html": "Click + then Add custom connector",
+          "image": "assets/guides/claude-app/step-3.png"
+        },
+        {
+          "type": "step",
+          "n": 5,
+          "title": "Add name & Paste the server URL",
+          "html": "Add name & Paste the server URL:",
+          "image": "assets/guides/claude-app/step-4.png"
+        },
+        {
+          "type": "code",
+          "text": "https://api.neosapien.xyz/mcp"
+        },
+        {
+          "type": "step",
+          "n": 6,
+          "title": "Click “Add”",
+          "html": "Click “Add”",
+          "image": "assets/guides/claude-app/step-5.png"
+        },
+        {
+          "type": "step",
+          "n": 7,
+          "title": "Select NeoSapien and tap Connect",
+          "html": "Select NeoSapien from connectors list and tap “Connect” to sign in to NeoSapien account (OAuth)",
+          "image": "assets/guides/claude-app/step-6.png"
+        },
+        {
+          "type": "step",
+          "n": 8,
+          "title": "Sign in to NeoSapien when prompted (OAuth)",
+          "html": "Sign in to NeoSapien when prompted (OAuth)",
+          "image": "assets/guides/claude-app/step-7.png"
+        },
+        {
+          "type": "step",
+          "n": 9,
+          "title": "Open chat, enable NeoSapien & try your first prompt",
+          "html": "Open chat, enable NeoSapien & try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
+          "image": "assets/guides/claude-app/step-8.png"
+        },
+        {
+          "type": "step",
+          "n": 10,
+          "title": "Congrats NeoSapien is now connected to Claude.",
+          "html": "Congrats NeoSapien is now connected to Claude."
+        },
+        {
+          "type": "callout",
+          "variant": "warning",
+          "title": "If NeoSapien MCP doesn’t work or appear in the chat, do one of these:",
+          "html": "<ul><li>Add “<span class=\"grad\">from NeoSapien</span>” to your message</li><li>Close the tab and reopen Claude</li><li>Re-authenticate with the existing NeoSapien account</li><li>Remove the NeoSapien from connectors and add it again.</li></ul>"
+        },
+        {
+          "type": "heading",
+          "text": "Here’s what it does for you",
+          "sub": "You ask, Neo 1 recalls, your AI does the work. Things you can do:"
+        },
+        {
+          "type": "usecases",
+          "groups": [
+            {
+              "items": [
+                {
+                  "title": "Catch up on your day",
+                  "desc": "“Summarise everything I said today.”"
+                },
+                {
+                  "title": "Draft your replies",
+                  "desc": "“Write the follow up email on what I owe Subodh”"
+                },
+                {
+                  "title": "Prep for what’s next",
+                  "desc": "“Prep me for my meeting with Mohit, what did he ask last time?”"
+                },
+                {
+                  "title": "Recall any detail",
+                  "desc": "“What’s the medicine I discussed for my father?”"
+                },
+                {
+                  "title": "Turn talk into to-dos",
+                  "desc": "“Make a task list from my last daily standup”"
+                },
+                {
+                  "title": "Work across your tools",
+                  "desc": "“Add those tasks to my Notion.” Your AI has both Neo 1 and your other apps."
+                },
+                {
+                  "title": "Export data",
+                  "desc": "\"Export all memories from yesterday as a CSV\"",
+                  "icon": "export"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "title": "Not getting results?",
+                  "desc": "Add “from NeoSapien” to your message.",
+                  "icon": "stars"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "linklist",
+          "items": [
+            {
+              "label": "Troubleshooting",
+              "href": "#/troubleshooting",
+              "icon": "question"
+            },
+            {
+              "label": "FAQs",
+              "href": "#/faq",
+              "icon": "chat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "code",
+      "label": "Code",
+      "headerCard": {
+        "variant": "info",
+        "title": "Requires laptop for setup",
+        "html": "Works everywhere once connected."
+      },
+      "blocks": [
+        {
+          "type": "step",
+          "n": 1,
+          "html": "Ensure Claude Code CLI is installed:"
+        },
+        {
+          "type": "code",
+          "text": "npm install -g @anthropic-ai/claude-code"
+        },
+        {
+          "type": "step",
+          "n": 2,
+          "html": "Open terminal, run Claude and then run this command:"
+        },
+        {
+          "type": "code",
+          "text": "claude mcp add --transport http neosapien https://api.neosapien.xyz/mcp"
+        },
+        {
+          "type": "step",
+          "n": 3,
+          "html": "Inside Claude code run <b>/mcp</b> → select neosapien → Authenticate - it opens a browser to sign in.",
+          "image": "assets/guides/claude-code/step-2.png"
+        },
+        {
+          "type": "step",
+          "n": 4,
+          "html": "Sign in to NeoSapien when prompted (OAuth) & Run <b>claude mcp list</b> or <b>claude mcp get neosapien</b> in terminal to verify the status.",
+          "image": "assets/guides/claude-code/step-3.png"
+        },
+        {
+          "type": "step",
+          "n": 5,
+          "html": "Open a new Claude Code chat & try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
+          "image": "assets/guides/claude-code/step-4.png"
+        },
+        {
+          "type": "step",
+          "n": 6,
+          "html": "Congrats NeoSapien is now connected to Claude Code."
+        },
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Not getting results?",
+          "html": "Append <span class=\"grad\">“from NeoSapien MCP”</span> to your message."
+        },
+        {
+          "type": "heading",
+          "text": "Here’s what it does for you",
+          "sub": "You ask, Neo 1 recalls, your AI does the work. Things you can do:"
+        },
+        {
+          "type": "usecases",
+          "groups": [
+            {
+              "items": [
+                {
+                  "title": "Catch up on your day",
+                  "desc": "“Summarise everything I said today.”"
+                },
+                {
+                  "title": "Draft your replies",
+                  "desc": "“Write the follow up email on what I owe Subodh”"
+                },
+                {
+                  "title": "Prep for what’s next",
+                  "desc": "“Prep me for my meeting with Mohit, what did he ask last time?”"
+                },
+                {
+                  "title": "Recall any detail",
+                  "desc": "“What’s the medicine I discussed for my father?”"
+                },
+                {
+                  "title": "Turn talk into to-dos",
+                  "desc": "“Make a task list from my last daily standup”"
+                },
+                {
+                  "title": "Work across your tools",
+                  "desc": "“Add those tasks to my Notion.” Your AI has both Neo 1 and your other apps."
+                },
+                {
+                  "title": "Export data",
+                  "desc": "\"Export all memories from yesterday as a CSV\"",
+                  "icon": "export"
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "title": "Not getting results?",
+                  "desc": "Add “from NeoSapien” to your message.",
+                  "icon": "stars"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "linklist",
+          "items": [
+            {
+              "label": "Troubleshooting",
+              "href": "#/troubleshooting",
+              "icon": "question"
+            },
+            {
+              "label": "FAQs",
+              "href": "#/faq",
+              "icon": "chat"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

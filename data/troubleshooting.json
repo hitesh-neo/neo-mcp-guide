@@ -1,0 +1,37 @@
+{
+  "id": "troubleshooting",
+  "title": "Troubleshooting",
+  "blocks": [
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "AI says it has no tools or cannot find MCP",
+          "a": "Restart your AI app after adding the NeoSapien MCP. The tool only loads on startup."
+        },
+        {
+          "q": "Hammer icon not showing in Claude Desktop",
+          "a": "Check claude_desktop_config.json for JSON formatting errors. Ensure the file is in the correct directory."
+        },
+        {
+          "q": "AI finds no memories",
+          "a": "Add 'from NeoSapien MCP' to your prompt. Without this trigger the AI may not query your memories. Restart the app if it persists."
+        },
+        {
+          "q": "MCP server timeout",
+          "a": "Check your internet connection. The server at api.neosapien.xyz/mcp must be reachable."
+        },
+        {
+          "q": "Config changes not taking effect",
+          "a": "Fully quit and relaunch the app not just reload."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Still having issues?",
+      "html": "Reach out from the Neosapien app and we’ll help you get connected."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "home",
+  "title": "MCP Guide",
+  "blocks": [
+    {
+      "type": "hero",
+      "neo": "assets/logos/neosapien.png",
+      "logos": ["assets/logos/claude-hero.svg", "assets/logos/chatgpt-hero.svg", "mcp"],
+      "title": "Your AI. Finally in the loop.",
+      "html": "Connect Neo 1 memories to <b>ChatGPT, Claude</b> or <b>any AI</b>, let it answer from your actual meetings and Neosapien Memories."
+    },
+    {
+      "type": "sectionhead",
+      "text": "Easy to setup",
+      "sub": "One-time setup. No code. Works immediately."
+    },
+    {
+      "type": "steps",
+      "items": [
+        { "n": 1, "label": "Pick your AI" },
+        { "n": 2, "label": "Follow the quick guide" },
+        { "n": 3, "label": "Ask it anything" }
+      ]
+    },
+    {
+      "type": "sectionhead",
+      "center": true,
+      "text": "Pick your AI",
+      "sub": "Setup happens on your computer."
+    },
+    {
+      "type": "ailist",
+      "items": [
+        { "name": "ChatGPT", "desc": "Web / Desktop App", "logo": "assets/logos/chatgpt.svg", "href": "#/chatgpt", "cta": "Open Guide →" },
+        { "name": "Claude", "desc": "Web / Desktop App / Code", "logo": "assets/logos/claude.svg", "href": "#/claude", "cta": "Open Guide →" },
+        { "name": "Others", "desc": "Open Connectors", "href": "#/others", "cta": "Open Guide →" }
+      ]
+    },
+    {
+      "type": "note",
+      "html": "Note: Only works with AI tools that supports MCP such as Claude or ChatGPT Pro."
+    },
+    {
+      "type": "sectionhead",
+      "center": true,
+      "text": "Here’s what it does for you",
+      "sub": "You ask, Neo 1 recalls, your AI does the work. Things you can do:"
+    },
+    {
+      "type": "usecases",
+      "groups": [
+        {
+          "items": [
+            { "title": "Catch up on your day", "desc": "“Summarise everything I said today.”" },
+            { "title": "Draft your replies", "desc": "“Write the follow up email on what I owe Subodh”" },
+            { "title": "Prep for what’s next", "desc": "“Prep me for my meeting with Mohit, what did he ask last time?”" },
+            { "title": "Recall any detail", "desc": "“What’s the medicine I discussed for my father?”" },
+            { "title": "Turn talk into to-dos", "desc": "“Make a task list from my last daily standup”" },
+            { "title": "Work across your tools", "desc": "<b>“Add those tasks to my Notion.”</b> Your AI has both Neo 1 and your other apps." },
+            { "title": "Export data", "desc": "\"Export all memories from yesterday as a CSV\"", "icon": "export" }
+          ]
+        },
+        {
+          "items": [
+            { "title": "Not getting results?", "desc": "Add “from NeoSapien” to your message.", "icon": "stars" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "linklist",
+      "items": [
+        { "label": "Troubleshooting", "href": "#/troubleshooting", "icon": "question" },
+        { "label": "FAQs", "href": "#/faq", "icon": "chat" }
+      ]
+    }
+  ]
+}
