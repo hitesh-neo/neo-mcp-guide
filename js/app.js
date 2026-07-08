@@ -357,8 +357,15 @@ async function loadScreen(id) {
   return data;
 }
 
+function markSidebar(id) {
+  document.querySelectorAll('.side-link').forEach((a) => {
+    a.classList.toggle('active', a.dataset.route === id);
+  });
+}
+
 async function route() {
   const id = routeId();
+  markSidebar(id);
   // Only show a loading state on a cold fetch — cached screens render instantly (no flicker)
   if (!cache.has(id)) view.innerHTML = '<div class="loading">Loading…</div>';
   try {

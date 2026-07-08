@@ -513,33 +513,98 @@ figure.image { margin: 0; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
 /* ============================================================
-   Tablet breakpoint — grow to a tablet-width layout (capped),
-   two-up cards. Above this we stay at tablet width (no desktop-wide).
+   Sidebar (desktop navigation) — hidden on mobile
    ============================================================ */
-@media (min-width: 700px) {
-  :root { --maxw: 700px; --pad-x: 28px; }
-  .screen { max-width: 700px; }
+.sidebar { display: none; }
 
-  .topbar { padding-left: 28px; padding-right: 28px; }
-  .view { gap: 44px; }
+/* ============================================================
+   Desktop breakpoint — left sidebar navigation + a single
+   mobile-style content column with wider, horizontal step cards.
+   Two breakpoints only: mobile (default) and this.
+   ============================================================ */
+@media (min-width: 1024px) {
+  .screen {
+    max-width: 1160px;
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.05);
+  }
 
-  /* home: two-up AI list + use cases, wider hero */
-  .hero { padding: 36px 32px; }
-  .hero h1 { font-size: 28px; line-height: 32px; }
+  /* ---- sidebar ---- */
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    height: 100dvh;
+    padding: 24px 16px;
+    border-right: 1px solid rgba(255,255,255,0.06);
+    background: rgba(255,255,255,0.015);
+  }
+  .side-brand {
+    display: flex; align-items: center; gap: 10px;
+    padding: 6px 10px 20px;
+    color: var(--text);
+    font-size: 15px; font-weight: 500; letter-spacing: -0.02em;
+  }
+  .side-brand img {
+    width: 28px; height: 28px;
+    border-radius: 6px;
+    border: 1px solid var(--primary);
+    object-fit: cover;
+  }
+  .side-group { display: flex; flex-direction: column; gap: 2px; }
+  .side-link {
+    display: block;
+    padding: 10px 12px;
+    border-radius: 10px;
+    color: var(--muted);
+    font-size: 14px; font-weight: 500; letter-spacing: -0.02em;
+    transition: background-color var(--dur-tap) var(--ease-soft), color var(--dur-tap) var(--ease-soft);
+  }
+  .side-link:hover { color: rgba(255,255,255,0.85); background: rgba(255,255,255,0.04); }
+  .side-link.active {
+    color: var(--primary);
+    background: rgba(0,241,160,0.08);
+  }
+  .side-sep { height: 1px; background: var(--border-dashed); margin: 8px 10px; }
 
-  .ai-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-  .ai-list .ai-option:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  /* ---- content column ---- */
+  .content { min-width: 0; }
+  .view {
+    max-width: 760px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 
-  .usecases { display: grid; grid-template-columns: 1fr 1fr; }
-  .usecases .usecase { border-top: 0; }
-  .usecases .usecase:nth-child(n+3) { border-top: 1px dashed var(--border-dashed); }
-  .usecases .usecase:nth-child(even) { border-left: 1px dashed var(--border-dashed); }
+  /* sidebar replaces Back; keep the centered screen title */
+  .back { visibility: hidden; }
 
-  /* guides: two-up step cards, full-width for everything else */
-  .tabpanel .blocks { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
-  .tabpanel .blocks > :not(.step-card) { grid-column: 1 / -1; }
+  /* tabs stick right under the (shorter) top bar */
+  .tabbar { top: calc(var(--safe-top) + 44px); }
 
-  .faq { max-width: 620px; }
+  /* hover feedback for pointer devices */
+  .ai-option:hover { border-color: var(--border-2); }
+  .link-row:hover, .faq-q:hover { background: rgba(255,255,255,0.02); }
+  .tab:not(.active):hover { color: rgba(255,255,255,0.8); }
+
+  /* ---- step cards go horizontal: image ~2/3, text beside it ---- */
+  .step-card { display: flex; align-items: stretch; }
+  .step-card .card-shot {
+    flex: 0 0 62%;
+    aspect-ratio: 4 / 3;
+    border-right: 1px solid var(--border);
+  }
+  .step-card .card-details {
+    flex: 1 1 auto;
+    justify-content: center;
+    padding: 24px;
+  }
+  .step-card.no-shot { display: flex; }
+  .step-card.no-shot .card-details { padding: 24px; }
 }
 /* ============================================================
    Motion — soft, gentle transitions across interactions

@@ -17,26 +17,47 @@
   <link rel="icon" href="assets/icons/icon-192.png" />
 
   <link rel="preload" href="assets/fonts/worksans-latin.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="css/styles.css?v=7" />
+  <link rel="stylesheet" href="css/styles.css?v=8" />
 </head>
 <body>
   <div id="app" class="screen">
-    <!-- Top bar (status + back) -->
-    <header class="topbar" id="topbar">
-      <button class="back" id="backBtn" type="button" aria-label="Go back" hidden>
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span>Back</span>
-      </button>
-      <span class="appbar-title" id="appbarTitle"></span>
-    </header>
+    <!-- Desktop sidebar navigation (hidden on mobile) -->
+    <nav class="sidebar" id="sidebar" aria-label="Guide navigation">
+      <a class="side-brand" href="#/">
+        <img src="assets/logos/neosapien.png" alt="" />
+        <span>MCP Guide</span>
+      </a>
+      <div class="side-group">
+        <a class="side-link" href="#/" data-route="home">Overview</a>
+        <a class="side-link" href="#/chatgpt" data-route="chatgpt">ChatGPT</a>
+        <a class="side-link" href="#/claude" data-route="claude">Claude</a>
+        <a class="side-link" href="#/others" data-route="others">Other AIs</a>
+      </div>
+      <div class="side-sep" role="presentation"></div>
+      <div class="side-group">
+        <a class="side-link" href="#/troubleshooting" data-route="troubleshooting">Troubleshooting</a>
+        <a class="side-link" href="#/faq" data-route="faq">FAQs</a>
+      </div>
+    </nav>
 
-    <main id="view" class="view" aria-live="polite"></main>
+    <div class="content">
+      <!-- Top bar (status + back) -->
+      <header class="topbar" id="topbar">
+        <button class="back" id="backBtn" type="button" aria-label="Go back" hidden>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Back</span>
+        </button>
+        <span class="appbar-title" id="appbarTitle"></span>
+      </header>
+
+      <main id="view" class="view" aria-live="polite"></main>
+    </div>
   </div>
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-  <script src="js/app.js?v=7" type="module"></script>
+  <script src="js/app.js?v=8" type="module"></script>
 </body>
 </html>
