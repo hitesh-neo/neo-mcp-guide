@@ -8,9 +8,10 @@
       "id": "web",
       "label": "Web",
       "headerCard": {
+        "variant": "info",
         "icon": "stars",
         "title": "Requires laptop for setup",
-        "subtitle": "Works everywhere once connected."
+        "html": "Works everywhere once connected."
       },
       "blocks": [
         {
@@ -150,7 +151,8 @@
       "id": "app",
       "label": "Desktop App",
       "headerCard": {
-        "variant": "success",
+        "variant": "info",
+        "icon": "stars",
         "title": "Requires laptop for setup",
         "html": "Works everywhere once connected."
       },
@@ -307,6 +309,7 @@
       "label": "Code",
       "headerCard": {
         "variant": "info",
+        "icon": "stars",
         "title": "Requires laptop for setup",
         "html": "Works everywhere once connected."
       },

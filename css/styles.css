@@ -596,7 +596,6 @@ figure.image { margin: 0; }
   .step-card .card-shot {
     flex: 0 0 62%;
     aspect-ratio: 4 / 3;
-    border-right: 1px solid var(--border);
   }
   .step-card .card-details {
     flex: 1 1 auto;

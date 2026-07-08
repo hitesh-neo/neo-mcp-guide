@@ -15,12 +15,6 @@
       "sub": "Give any AI assistant direct access to your NeoSapien memories."
     },
     {
-      "type": "callout",
-      "variant": "info",
-      "title": "Requires laptop for setup",
-      "html": "Works everywhere once connected."
-    },
-    {
       "type": "step",
       "n": 1,
       "title": "Open your tool's MCP settings",
