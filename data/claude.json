@@ -167,7 +167,7 @@
           {
             "type": "step",
             "n": 3,
-            "html": "Click <b>+</b> on the NeoSapien card and sign in with your NeoSapien account",
+            "html": "Click <b>Connect</b> and sign in with your NeoSapien account",
             "image": "assets/guides/quick/claude-step3-detail.png"
           },
           {
@@ -356,7 +356,7 @@
           {
             "type": "step",
             "n": 3,
-            "html": "Click <b>+</b> on the NeoSapien card and sign in with your NeoSapien account",
+            "html": "Click <b>Connect</b> and sign in with your NeoSapien account",
             "image": "assets/guides/quick/claude-step3-detail.png"
           },
           {
