@@ -159,30 +159,34 @@
         }
       ],
       "quickSetup": {
-        "live": false,
+        "live": true,
         "title": "Quick setup",
-        "sub": "One-click from the ChatGPT plugin directory.",
+        "sub": "NeoSapien is now in the ChatGPT plugin directory — no URLs, no config.",
         "manualLabel": "Manual setup (Developer mode)",
         "blocks": [
           {
             "type": "step",
             "n": 1,
-            "html": "Open ChatGPT and click <b>Plugins</b> in the sidebar (or <b>Settings → Plugins</b>)"
+            "html": "Open ChatGPT and click <b>Plugins</b> in the sidebar",
+            "image": "assets/guides/quick/chatgpt-step1.png"
           },
           {
             "type": "step",
             "n": 2,
-            "html": "Search “NeoSapien” in the plugin directory"
+            "html": "Search “NeoSapien”",
+            "image": "assets/guides/quick/chatgpt-step2.png"
           },
           {
             "type": "step",
             "n": 3,
-            "html": "Click <b>Add</b> and sign in with your NeoSapien account"
+            "html": "Click <b>Install plugin</b> and sign in with your NeoSapien account",
+            "image": "assets/guides/quick/chatgpt-step3.png"
           },
           {
             "type": "step",
             "n": 4,
-            "html": "Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”"
+            "html": "Done — try: “<span class=\"grad\">@NeoSapien Summarize everything I said today.</span>”",
+            "image": "assets/guides/quick/chatgpt-step4.png"
           }
         ]
       }
@@ -342,30 +346,34 @@
         }
       ],
       "quickSetup": {
-        "live": false,
+        "live": true,
         "title": "Quick setup",
-        "sub": "One-click from the ChatGPT plugin directory.",
+        "sub": "NeoSapien is now in the ChatGPT plugin directory — no URLs, no config.",
         "manualLabel": "Manual setup (Developer mode)",
         "blocks": [
           {
             "type": "step",
             "n": 1,
-            "html": "Open ChatGPT and click <b>Plugins</b> in the sidebar (or <b>Settings → Plugins</b>)"
+            "html": "Open ChatGPT and click <b>Plugins</b> in the sidebar",
+            "image": "assets/guides/quick/chatgpt-step1.png"
           },
           {
             "type": "step",
             "n": 2,
-            "html": "Search “NeoSapien” in the plugin directory"
+            "html": "Search “NeoSapien”",
+            "image": "assets/guides/quick/chatgpt-step2.png"
           },
           {
             "type": "step",
             "n": 3,
-            "html": "Click <b>Add</b> and sign in with your NeoSapien account"
+            "html": "Click <b>Install plugin</b> and sign in with your NeoSapien account",
+            "image": "assets/guides/quick/chatgpt-step3.png"
           },
           {
             "type": "step",
             "n": 4,
-            "html": "Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”"
+            "html": "Done — try: “<span class=\"grad\">@NeoSapien Summarize everything I said today.</span>”",
+            "image": "assets/guides/quick/chatgpt-step4.png"
           }
         ]
       }
