@@ -166,6 +166,26 @@ const renderers = {
     return card;
   },
 
+  accordion(b, screen) {
+    const wrap = el('div', 'accordion');
+    const btn = el('button', 'acc-head');
+    btn.type = 'button';
+    btn.setAttribute('aria-expanded', 'false');
+    btn.innerHTML = `<span>${b.title || 'Show more'}</span>` +
+      `<span class="tw"><svg viewBox="0 0 24 24" fill="none" width="18" height="18"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>`;
+    const body = el('div', 'acc-body');
+    const inner = el('div', 'blocks');
+    (b.blocks || []).forEach((x) => inner.appendChild(renderBlock(x, screen)));
+    body.appendChild(inner);
+    btn.addEventListener('click', () => {
+      const open = wrap.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    wrap.appendChild(btn);
+    wrap.appendChild(body);
+    return wrap;
+  },
+
   tabs(b, screen) {
     const wrap = el('div', 'tabgroup');
     const bar = el('div', 'tabbar');
@@ -183,9 +203,26 @@ const renderers = {
       panel.innerHTML = '';
       const t = tabs[i];
       if (t.headerCard) panel.appendChild(renderers.callout(t.headerCard));
-      const blocks = el('div', 'blocks');
-      (t.blocks || []).forEach((blk) => blocks.appendChild(renderBlock(blk, screen)));
-      panel.appendChild(blocks);
+      const qs = t.quickSetup;
+      if (qs && qs.live) {
+        // Quick setup (directory flow) + manual steps collapsed below
+        const head = el('div', 'qs-head');
+        head.innerHTML = `<span class="qs-title">${qs.title || 'Quick setup'}</span>` +
+          `<span class="qs-badge">Recommended</span>`;
+        panel.appendChild(head);
+        if (qs.sub) panel.appendChild(el('p', 'qs-sub', qs.sub));
+        const qblocks = el('div', 'blocks');
+        (qs.blocks || []).forEach((blk) => qblocks.appendChild(renderBlock(blk, screen)));
+        panel.appendChild(qblocks);
+        panel.appendChild(renderers.accordion({
+          title: qs.manualLabel || 'Manual setup (custom connector)',
+          blocks: t.blocks || []
+        }, screen));
+      } else {
+        const blocks = el('div', 'blocks');
+        (t.blocks || []).forEach((blk) => blocks.appendChild(renderBlock(blk, screen)));
+        panel.appendChild(blocks);
+      }
       // replay the soft cross-fade on tab change
       panel.classList.remove('swap');
       void panel.offsetWidth;

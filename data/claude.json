@@ -145,7 +145,36 @@
             }
           ]
         }
-      ]
+      ],
+      "quickSetup": {
+        "live": true,
+        "title": "Quick setup",
+        "sub": "NeoSapien is now in Claude’s Connectors Directory — no URLs, no config.",
+        "manualLabel": "Manual setup (custom connector)",
+        "blocks": [
+          {
+            "type": "step",
+            "n": 1,
+            "html": "Open Claude and go to <b>Settings → Connectors</b>"
+          },
+          {
+            "type": "step",
+            "n": 2,
+            "html": "Click <b>Add → Browse connectors</b> and search “NeoSapien”",
+            "image": "assets/guides/quick/claude-directory-panel.png"
+          },
+          {
+            "type": "step",
+            "n": 3,
+            "html": "Click <b>+</b> on the NeoSapien card and sign in with your NeoSapien account"
+          },
+          {
+            "type": "step",
+            "n": 4,
+            "html": "Done — it works on Web, Desktop and Mobile. Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”"
+          }
+        ]
+      }
     },
     {
       "id": "app",
@@ -302,7 +331,36 @@
             }
           ]
         }
-      ]
+      ],
+      "quickSetup": {
+        "live": true,
+        "title": "Quick setup",
+        "sub": "NeoSapien is now in Claude’s Connectors Directory — no URLs, no config.",
+        "manualLabel": "Manual setup (custom connector)",
+        "blocks": [
+          {
+            "type": "step",
+            "n": 1,
+            "html": "Open Claude and go to <b>Settings → Connectors</b>"
+          },
+          {
+            "type": "step",
+            "n": 2,
+            "html": "Click <b>Add → Browse connectors</b> and search “NeoSapien”",
+            "image": "assets/guides/quick/claude-directory-panel.png"
+          },
+          {
+            "type": "step",
+            "n": 3,
+            "html": "Click <b>+</b> on the NeoSapien card and sign in with your NeoSapien account"
+          },
+          {
+            "type": "step",
+            "n": 4,
+            "html": "Done — it works on Web, Desktop and Mobile. Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”"
+          }
+        ]
+      }
     },
     {
       "id": "code",
@@ -314,6 +372,12 @@
         "html": "Works everywhere once connected."
       },
       "blocks": [
+        {
+          "type": "callout",
+          "variant": "info",
+          "title": "Already connected on claude.ai?",
+          "html": "Connectors added from Claude’s directory are available across Claude, including Claude Code — the terminal setup below is only needed if you want to add it directly."
+        },
         {
           "type": "step",
           "n": 1,

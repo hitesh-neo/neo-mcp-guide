@@ -406,6 +406,50 @@ a { color: var(--primary); text-decoration: none; }
 .step-instr .grad { -webkit-text-fill-color: transparent; }
 .step-instr ul { margin: 0; padding-left: 20px; }
 
+/* quick setup (directory flow) */
+.qs-head {
+  display: flex; align-items: center; gap: 10px;
+  margin-top: 4px;
+}
+.qs-title {
+  font-size: 20px; font-weight: 500; letter-spacing: -0.04em; color: var(--text);
+}
+.qs-badge {
+  font-size: 11px; font-weight: 500; letter-spacing: 0;
+  color: var(--primary);
+  background: rgba(0,241,160,0.1);
+  border: 1px solid rgba(0,241,160,0.25);
+  border-radius: 999px;
+  padding: 3px 10px;
+  white-space: nowrap;
+}
+.qs-sub {
+  margin: -10px 0 0;
+  font-size: 13px; line-height: 18px; color: var(--muted-2);
+}
+
+/* collapsible manual-setup section */
+.accordion {
+  border: 1.2px solid var(--border);
+  border-radius: var(--r-lg);
+  background: var(--card-grad);
+  overflow: hidden;
+}
+.acc-head {
+  width: 100%;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 18px 20px;
+  border: 0; background: none; cursor: pointer;
+  color: var(--text); font-family: var(--font);
+  font-size: 14px; font-weight: 500; letter-spacing: -0.02em;
+  text-align: left;
+}
+.acc-head .tw { color: var(--muted); transition: transform var(--dur-swap) var(--ease-soft); display: flex; }
+.accordion.open .acc-head .tw { transform: rotate(180deg); color: var(--primary); }
+.acc-body { display: none; padding: 4px 16px 20px; }
+.accordion.open .acc-body { display: block; animation: fadeRise var(--dur-swap) var(--ease-out); }
+.acc-head:active { background: rgba(255,255,255,0.02); }
+
 /* standalone image block */
 .shot {
   border-radius: var(--r-md);

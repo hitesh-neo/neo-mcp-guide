@@ -157,7 +157,35 @@
             }
           ]
         }
-      ]
+      ],
+      "quickSetup": {
+        "live": false,
+        "title": "Quick setup",
+        "sub": "One-click from the ChatGPT plugin directory.",
+        "manualLabel": "Manual setup (Developer mode)",
+        "blocks": [
+          {
+            "type": "step",
+            "n": 1,
+            "html": "Open ChatGPT and click <b>Plugins</b> in the sidebar (or <b>Settings → Plugins</b>)"
+          },
+          {
+            "type": "step",
+            "n": 2,
+            "html": "Search “NeoSapien” in the plugin directory"
+          },
+          {
+            "type": "step",
+            "n": 3,
+            "html": "Click <b>Add</b> and sign in with your NeoSapien account"
+          },
+          {
+            "type": "step",
+            "n": 4,
+            "html": "Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”"
+          }
+        ]
+      }
     },
     {
       "id": "desktop",
@@ -312,7 +340,35 @@
             }
           ]
         }
-      ]
+      ],
+      "quickSetup": {
+        "live": false,
+        "title": "Quick setup",
+        "sub": "One-click from the ChatGPT plugin directory.",
+        "manualLabel": "Manual setup (Developer mode)",
+        "blocks": [
+          {
+            "type": "step",
+            "n": 1,
+            "html": "Open ChatGPT and click <b>Plugins</b> in the sidebar (or <b>Settings → Plugins</b>)"
+          },
+          {
+            "type": "step",
+            "n": 2,
+            "html": "Search “NeoSapien” in the plugin directory"
+          },
+          {
+            "type": "step",
+            "n": 3,
+            "html": "Click <b>Add</b> and sign in with your NeoSapien account"
+          },
+          {
+            "type": "step",
+            "n": 4,
+            "html": "Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”"
+          }
+        ]
+      }
     }
   ]
 }
