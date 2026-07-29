@@ -155,7 +155,8 @@
           {
             "type": "step",
             "n": 1,
-            "html": "Open Claude and go to <b>Settings → Connectors</b>"
+            "html": "Open Claude and go to <b>Settings → Connectors</b>",
+            "image": "assets/guides/quick/claude-step1-connectors.png"
           },
           {
             "type": "step",
@@ -166,12 +167,14 @@
           {
             "type": "step",
             "n": 3,
-            "html": "Click <b>+</b> on the NeoSapien card and sign in with your NeoSapien account"
+            "html": "Click <b>+</b> on the NeoSapien card and sign in with your NeoSapien account",
+            "image": "assets/guides/quick/claude-step3-detail.png"
           },
           {
             "type": "step",
             "n": 4,
-            "html": "Done — it works on Web, Desktop and Mobile. Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”"
+            "html": "Done — it works on Web, Desktop and Mobile. Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
+            "image": "assets/guides/quick/claude-step4-connected.png"
           }
         ]
       }
@@ -341,7 +344,8 @@
           {
             "type": "step",
             "n": 1,
-            "html": "Open Claude and go to <b>Settings → Connectors</b>"
+            "html": "Open Claude and go to <b>Settings → Connectors</b>",
+            "image": "assets/guides/quick/claude-step1-connectors.png"
           },
           {
             "type": "step",
@@ -352,12 +356,14 @@
           {
             "type": "step",
             "n": 3,
-            "html": "Click <b>+</b> on the NeoSapien card and sign in with your NeoSapien account"
+            "html": "Click <b>+</b> on the NeoSapien card and sign in with your NeoSapien account",
+            "image": "assets/guides/quick/claude-step3-detail.png"
           },
           {
             "type": "step",
             "n": 4,
-            "html": "Done — it works on Web, Desktop and Mobile. Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”"
+            "html": "Done — it works on Web, Desktop and Mobile. Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
+            "image": "assets/guides/quick/claude-step4-connected.png"
           }
         ]
       }
