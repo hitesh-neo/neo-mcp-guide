@@ -185,7 +185,7 @@
           {
             "type": "step",
             "n": 4,
-            "html": "Done — try: “<span class=\"grad\">@NeoSapien Summarize everything I said today.</span>”",
+            "html": "Done — ask: “<span class=\"grad\">@NeoSapien What do you know about me from Neosapien?</span>”",
             "image": "assets/guides/quick/chatgpt-step4.png"
           }
         ]
@@ -372,7 +372,7 @@
           {
             "type": "step",
             "n": 4,
-            "html": "Done — try: “<span class=\"grad\">@NeoSapien Summarize everything I said today.</span>”",
+            "html": "Done — ask: “<span class=\"grad\">@NeoSapien What do you know about me from Neosapien?</span>”",
             "image": "assets/guides/quick/chatgpt-step4.png"
           }
         ]

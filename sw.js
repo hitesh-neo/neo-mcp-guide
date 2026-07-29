@@ -1,5 +1,5 @@
 // Neosapien MCP Guide — service worker (offline-first)
-const CACHE = 'neo-mcp-guide-v14';
+const CACHE = 'neo-mcp-guide-v15';
 
 // App shell + core assets pre-cached on install.
 const CORE = [
