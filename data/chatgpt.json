@@ -183,12 +183,18 @@
           {
             "type": "step",
             "n": 3,
-            "html": "Click <b>Install plugin</b> and sign in with your NeoSapien account",
+            "html": "Click <b>Install plugin</b>",
             "image": "assets/guides/quick/chatgpt-step3.png"
           },
           {
             "type": "step",
             "n": 4,
+            "html": "Sign in with your NeoSapien account (it can be different from your ChatGPT account)",
+            "image": "assets/guides/chatgpt/step-9.png"
+          },
+          {
+            "type": "step",
+            "n": 5,
             "html": "Done — ask: “<span class=\"grad\">@NeoSapien What do you know about me from Neosapien?</span>”",
             "image": "assets/guides/quick/chatgpt-step4.png"
           }
@@ -374,12 +380,18 @@
           {
             "type": "step",
             "n": 3,
-            "html": "Click <b>Install plugin</b> and sign in with your NeoSapien account",
+            "html": "Click <b>Install plugin</b>",
             "image": "assets/guides/quick/chatgpt-step3.png"
           },
           {
             "type": "step",
             "n": 4,
+            "html": "Sign in with your NeoSapien account (it can be different from your ChatGPT account)",
+            "image": "assets/guides/chatgpt/step-9.png"
+          },
+          {
+            "type": "step",
+            "n": 5,
             "html": "Done — ask: “<span class=\"grad\">@NeoSapien What do you know about me from Neosapien?</span>”",
             "image": "assets/guides/quick/chatgpt-step4.png"
           }
