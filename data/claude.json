@@ -173,8 +173,8 @@
           {
             "type": "step",
             "n": 4,
-            "html": "Done — it works on Web, Desktop and Mobile. Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
-            "image": "assets/guides/quick/claude-step4-connected.png"
+            "html": "Done — ask: “<span class=\"grad\">What do you know about me from Neosapien?</span>” It works on Web, Desktop and Mobile.",
+            "image": "assets/guides/quick/claude-step4-prompt.png"
           }
         ]
       }
@@ -362,8 +362,8 @@
           {
             "type": "step",
             "n": 4,
-            "html": "Done — it works on Web, Desktop and Mobile. Try: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
-            "image": "assets/guides/quick/claude-step4-connected.png"
+            "html": "Done — ask: “<span class=\"grad\">What do you know about me from Neosapien?</span>” It works on Web, Desktop and Mobile.",
+            "image": "assets/guides/quick/claude-step4-prompt.png"
           }
         ]
       }
