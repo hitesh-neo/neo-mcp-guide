@@ -150,7 +150,7 @@
         "live": true,
         "title": "Quick setup",
         "sub": "NeoSapien is now in Claude’s Connectors Directory — no URLs, no config.",
-        "manualLabel": "Manual setup (custom connector)",
+        "manualLabel": "Advanced: manual setup (custom connector)",
         "blocks": [
           {
             "type": "step",
@@ -161,13 +161,17 @@
           {
             "type": "step",
             "n": 2,
-            "html": "Click <b>Add → Browse connectors</b> and search “NeoSapien”",
-            "image": "assets/guides/quick/claude-directory-panel.png"
+            "html": "Switch to <b>Discover</b> and search “NeoSapien”",
+            "image": "assets/guides/quick/claude-directory-panel.png",
+            "link": {
+              "url": "https://claude.ai/directory/neosapien",
+              "label": "claude.ai/directory/neosapien"
+            }
           },
           {
             "type": "step",
             "n": 3,
-            "html": "Click <b>Connect</b> and sign in with your NeoSapien account",
+            "html": "Click <b>Connect to Claude</b> and sign in with your NeoSapien account",
             "image": "assets/guides/quick/claude-step3-detail.png"
           },
           {
@@ -339,7 +343,7 @@
         "live": true,
         "title": "Quick setup",
         "sub": "NeoSapien is now in Claude’s Connectors Directory — no URLs, no config.",
-        "manualLabel": "Manual setup (custom connector)",
+        "manualLabel": "Advanced: manual setup (custom connector)",
         "blocks": [
           {
             "type": "step",
@@ -350,13 +354,17 @@
           {
             "type": "step",
             "n": 2,
-            "html": "Click <b>Add → Browse connectors</b> and search “NeoSapien”",
-            "image": "assets/guides/quick/claude-directory-panel.png"
+            "html": "Switch to <b>Discover</b> and search “NeoSapien”",
+            "image": "assets/guides/quick/claude-directory-panel.png",
+            "link": {
+              "url": "https://claude.ai/directory/neosapien",
+              "label": "claude.ai/directory/neosapien"
+            }
           },
           {
             "type": "step",
             "n": 3,
-            "html": "Click <b>Connect</b> and sign in with your NeoSapien account",
+            "html": "Click <b>Connect to Claude</b> and sign in with your NeoSapien account",
             "image": "assets/guides/quick/claude-step3-detail.png"
           },
           {

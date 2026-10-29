@@ -162,7 +162,7 @@
         "live": true,
         "title": "Quick setup",
         "sub": "NeoSapien is now in the ChatGPT plugin directory — no URLs, no config.",
-        "manualLabel": "Manual setup (Developer mode)",
+        "manualLabel": "Advanced: manual setup (Developer mode)",
         "blocks": [
           {
             "type": "step",
@@ -174,7 +174,11 @@
             "type": "step",
             "n": 2,
             "html": "Search “NeoSapien”",
-            "image": "assets/guides/quick/chatgpt-step2.png"
+            "image": "assets/guides/quick/chatgpt-step2.png",
+            "link": {
+              "url": "https://chatgpt.com/plugins/plugin_asdk_app_6a61d1d9a5a481918fb86e13d48423dd",
+              "label": "Open NeoSapien in ChatGPT plugins"
+            }
           },
           {
             "type": "step",
@@ -349,7 +353,7 @@
         "live": true,
         "title": "Quick setup",
         "sub": "NeoSapien is now in the ChatGPT plugin directory — no URLs, no config.",
-        "manualLabel": "Manual setup (Developer mode)",
+        "manualLabel": "Advanced: manual setup (Developer mode)",
         "blocks": [
           {
             "type": "step",
@@ -361,7 +365,11 @@
             "type": "step",
             "n": 2,
             "html": "Search “NeoSapien”",
-            "image": "assets/guides/quick/chatgpt-step2.png"
+            "image": "assets/guides/quick/chatgpt-step2.png",
+            "link": {
+              "url": "https://chatgpt.com/plugins/plugin_asdk_app_6a61d1d9a5a481918fb86e13d48423dd",
+              "label": "Open NeoSapien in ChatGPT plugins"
+            }
           },
           {
             "type": "step",
