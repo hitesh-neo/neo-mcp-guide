@@ -178,7 +178,7 @@
             "type": "step",
             "n": 4,
             "html": "Sign in with your NeoSapien account (it can be different from your Claude account)",
-            "image": "assets/guides/claude-web/step-7.png"
+            "image": "assets/guides/quick/neosapien-signin.png"
           },
           {
             "type": "step",
@@ -377,7 +377,7 @@
             "type": "step",
             "n": 4,
             "html": "Sign in with your NeoSapien account (it can be different from your Claude account)",
-            "image": "assets/guides/claude-web/step-7.png"
+            "image": "assets/guides/quick/neosapien-signin.png"
           },
           {
             "type": "step",

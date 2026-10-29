@@ -190,7 +190,7 @@
             "type": "step",
             "n": 4,
             "html": "Sign in with your NeoSapien account (it can be different from your ChatGPT account)",
-            "image": "assets/guides/chatgpt/step-9.png"
+            "image": "assets/guides/quick/neosapien-signin.png"
           },
           {
             "type": "step",
@@ -387,7 +387,7 @@
             "type": "step",
             "n": 4,
             "html": "Sign in with your NeoSapien account (it can be different from your ChatGPT account)",
-            "image": "assets/guides/chatgpt/step-9.png"
+            "image": "assets/guides/quick/neosapien-signin.png"
           },
           {
             "type": "step",
