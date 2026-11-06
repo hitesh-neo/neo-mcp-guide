@@ -225,8 +225,7 @@ const renderers = {
       if (qs && qs.live) {
         // Quick setup (directory flow) + manual steps collapsed below
         const head = el('div', 'qs-head');
-        head.innerHTML = `<span class="qs-title">${qs.title || 'Quick setup'}</span>` +
-          `<span class="qs-badge">Recommended</span>`;
+        head.innerHTML = `<span class="qs-title">${qs.title || 'Quick setup'}</span>`;
         panel.appendChild(head);
         if (qs.sub) panel.appendChild(el('p', 'qs-sub', qs.sub));
         const qblocks = el('div', 'blocks');

@@ -414,15 +414,6 @@ a { color: var(--primary); text-decoration: none; }
 .qs-title {
   font-size: 20px; font-weight: 500; letter-spacing: -0.04em; color: var(--text);
 }
-.qs-badge {
-  font-size: 11px; font-weight: 500; letter-spacing: 0;
-  color: var(--primary);
-  background: rgba(0,241,160,0.1);
-  border: 1px solid rgba(0,241,160,0.25);
-  border-radius: 999px;
-  padding: 3px 10px;
-  white-space: nowrap;
-}
 .qs-sub {
   margin: -10px 0 0;
   font-size: 13px; line-height: 18px; color: var(--muted-2);
