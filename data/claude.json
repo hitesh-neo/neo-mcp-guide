@@ -149,20 +149,32 @@
       "quickSetup": {
         "live": true,
         "title": "Quick setup",
-        "sub": "NeoSapien is now in Claude’s Connectors Directory — no URLs, no config.",
+        "sub": "NeoSapien is in Claude’s Connectors Directory — no URLs, no config.",
         "manualLabel": "Advanced: manual setup (custom connector)",
         "blocks": [
           {
             "type": "step",
             "n": 1,
-            "html": "Open Claude and go to <b>Settings → Connectors</b>",
-            "image": "assets/guides/quick/claude-step1-connectors.png"
+            "html": "Download and open Claude Desktop App from <b>claude.ai/download</b>",
+            "image": "assets/guides/quick/v2/claude-web/step-1.png"
           },
           {
             "type": "step",
             "n": 2,
-            "html": "Switch to <b>Discover</b> and search “NeoSapien”",
-            "image": "assets/guides/quick/claude-directory-panel.png",
+            "html": "Click <b>Customize</b> in the left sidebar",
+            "image": "assets/guides/quick/v2/claude-web/step-2.png"
+          },
+          {
+            "type": "step",
+            "n": 3,
+            "html": "Select <b>Connectors</b> from the top menu",
+            "image": "assets/guides/quick/v2/claude-web/step-3.png"
+          },
+          {
+            "type": "step",
+            "n": 4,
+            "html": "Search for “NeoSapien”",
+            "image": "assets/guides/quick/v2/claude-web/step-4.png",
             "link": {
               "url": "https://claude.ai/directory/neosapien",
               "label": "claude.ai/directory/neosapien"
@@ -170,21 +182,33 @@
           },
           {
             "type": "step",
-            "n": 3,
-            "html": "Click <b>Connect to Claude</b>",
-            "image": "assets/guides/quick/claude-step3-detail.png"
-          },
-          {
-            "type": "step",
-            "n": 4,
-            "html": "Sign in with your NeoSapien account (it can be different from your Claude account)",
-            "image": "assets/guides/quick/neosapien-signin.png"
-          },
-          {
-            "type": "step",
             "n": 5,
-            "html": "Done — ask: “<span class=\"grad\">What do you know about me from Neosapien?</span>” It works on Web, Desktop and Mobile.",
-            "image": "assets/guides/quick/claude-step4-prompt.png"
+            "html": "Open the NeoSapien Plugin",
+            "image": "assets/guides/quick/v2/claude-web/step-5.png"
+          },
+          {
+            "type": "step",
+            "n": 6,
+            "html": "Click <b>“Add”</b>",
+            "image": "assets/guides/quick/v2/claude-web/step-6.png"
+          },
+          {
+            "type": "step",
+            "n": 7,
+            "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
+            "image": "assets/guides/quick/v2/claude-web/step-7.png"
+          },
+          {
+            "type": "step",
+            "n": 8,
+            "html": "Open chat, enable NeoSapien &amp; try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
+            "image": "assets/guides/quick/v2/claude-web/step-8.png"
+          },
+          {
+            "type": "step",
+            "n": 9,
+            "html": "Congrats NeoSapien is now connected to Claude.",
+            "image": "assets/guides/quick/v2/claude-web/step-9.png"
           }
         ]
       }
@@ -348,20 +372,32 @@
       "quickSetup": {
         "live": true,
         "title": "Quick setup",
-        "sub": "NeoSapien is now in Claude’s Connectors Directory — no URLs, no config.",
+        "sub": "NeoSapien is in Claude’s Connectors Directory — no URLs, no config.",
         "manualLabel": "Advanced: manual setup (custom connector)",
         "blocks": [
           {
             "type": "step",
             "n": 1,
-            "html": "Open Claude and go to <b>Settings → Connectors</b>",
-            "image": "assets/guides/quick/claude-step1-connectors.png"
+            "html": "Open claude.ai in your laptop browser",
+            "image": "assets/guides/quick/v2/claude-desktop/step-1.png"
           },
           {
             "type": "step",
             "n": 2,
-            "html": "Switch to <b>Discover</b> and search “NeoSapien”",
-            "image": "assets/guides/quick/claude-directory-panel.png",
+            "html": "Click Customize in the left sidebar",
+            "image": "assets/guides/quick/v2/claude-desktop/step-2.png"
+          },
+          {
+            "type": "step",
+            "n": 3,
+            "html": "Select Connectors from the top menu",
+            "image": "assets/guides/quick/v2/claude-desktop/step-3.png"
+          },
+          {
+            "type": "step",
+            "n": 4,
+            "html": "Search for “NeoSapien”",
+            "image": "assets/guides/quick/v2/claude-desktop/step-4.png",
             "link": {
               "url": "https://claude.ai/directory/neosapien",
               "label": "claude.ai/directory/neosapien"
@@ -369,21 +405,33 @@
           },
           {
             "type": "step",
-            "n": 3,
-            "html": "Click <b>Connect to Claude</b>",
-            "image": "assets/guides/quick/claude-step3-detail.png"
-          },
-          {
-            "type": "step",
-            "n": 4,
-            "html": "Sign in with your NeoSapien account (it can be different from your Claude account)",
-            "image": "assets/guides/quick/neosapien-signin.png"
-          },
-          {
-            "type": "step",
             "n": 5,
-            "html": "Done — ask: “<span class=\"grad\">What do you know about me from Neosapien?</span>” It works on Web, Desktop and Mobile.",
-            "image": "assets/guides/quick/claude-step4-prompt.png"
+            "html": "Open the NeoSapien Plugin",
+            "image": "assets/guides/quick/v2/claude-desktop/step-5.png"
+          },
+          {
+            "type": "step",
+            "n": 6,
+            "html": "Click “Add”",
+            "image": "assets/guides/quick/v2/claude-desktop/step-6.png"
+          },
+          {
+            "type": "step",
+            "n": 7,
+            "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
+            "image": "assets/guides/quick/v2/claude-desktop/step-7.png"
+          },
+          {
+            "type": "step",
+            "n": 8,
+            "html": "Open chat, enable NeoSapien &amp; try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
+            "image": "assets/guides/quick/v2/claude-desktop/step-8.png"
+          },
+          {
+            "type": "step",
+            "n": 9,
+            "html": "Congrats NeoSapien is now connected to Claude.",
+            "image": "assets/guides/quick/v2/claude-desktop/step-9.png"
           }
         ]
       }
@@ -407,43 +455,38 @@
         {
           "type": "step",
           "n": 1,
-          "html": "Ensure Claude Code CLI is installed:"
-        },
-        {
-          "type": "code",
-          "text": "npm install -g @anthropic-ai/claude-code"
+          "html": "Ensure Claude Code CLI is installed: <b>npm install -g @anthropic-ai/claude-code</b>",
+          "image": "assets/guides/quick/v2/claude-code/step-1.png"
         },
         {
           "type": "step",
           "n": 2,
-          "html": "Open terminal, run Claude and then run this command:"
-        },
-        {
-          "type": "code",
-          "text": "claude mcp add --transport http neosapien https://api.neosapien.xyz/mcp"
+          "html": "Open terminal, run Claude and then run this command: <b>claude mcp add --transport http neosapien https://api.neosapien.xyz/</b>",
+          "image": "assets/guides/quick/v2/claude-code/step-2.png"
         },
         {
           "type": "step",
           "n": 3,
           "html": "Inside Claude code run <b>/mcp</b> → select neosapien → Authenticate - it opens a browser to sign in.",
-          "image": "assets/guides/claude-code/step-2.png"
+          "image": "assets/guides/quick/v2/claude-code/step-3.png"
         },
         {
           "type": "step",
           "n": 4,
-          "html": "Sign in to NeoSapien when prompted (OAuth) & Run <b>claude mcp list</b> or <b>claude mcp get neosapien</b> in terminal to verify the status.",
-          "image": "assets/guides/claude-code/step-3.png"
+          "html": "Sign in to NeoSapien when prompted (OAuth) &amp; Run <b>claude mcp list</b> or <b>claude mcp get neosapien</b> in terminal to verify the status.",
+          "image": "assets/guides/quick/v2/claude-code/step-4.png"
         },
         {
           "type": "step",
           "n": 5,
-          "html": "Open a new Claude Code chat & try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
-          "image": "assets/guides/claude-code/step-4.png"
+          "html": "Open a new Claude Code chat &amp; try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
+          "image": "assets/guides/quick/v2/claude-code/step-5.png"
         },
         {
           "type": "step",
           "n": 6,
-          "html": "Congrats NeoSapien is now connected to Claude Code."
+          "html": "Congrats NeoSapien is now connected to Claude Code.",
+          "image": "assets/guides/quick/v2/claude-code/step-6.png"
         },
         {
           "type": "callout",
