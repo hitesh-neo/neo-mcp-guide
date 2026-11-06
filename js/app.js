@@ -162,6 +162,24 @@ const renderers = {
     details.appendChild(el('span', 'step-label', 'Step ' + b.n));
     if (b.html) details.appendChild(el('div', 'step-instr', b.html));
     if (b.note) details.appendChild(renderers.callout(b.note));
+    if (b.link) {
+      const row = el('div', 'step-link');
+      const a = el('a', null, b.link.label || b.link.url);
+      a.href = b.link.url;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      const btn = el('button', 'link-copy', ICONS.copy);
+      btn.type = 'button';
+      btn.title = 'Copy link';
+      btn.setAttribute('aria-label', 'Copy link');
+      btn.addEventListener('click', async () => {
+        try { await navigator.clipboard.writeText(b.link.url); toast('Link copied'); }
+        catch { toast('Copy failed'); }
+      });
+      row.appendChild(a);
+      row.appendChild(btn);
+      details.appendChild(row);
+    }
     card.appendChild(details);
     return card;
   },
@@ -207,8 +225,7 @@ const renderers = {
       if (qs && qs.live) {
         // Quick setup (directory flow) + manual steps collapsed below
         const head = el('div', 'qs-head');
-        head.innerHTML = `<span class="qs-title">${qs.title || 'Quick setup'}</span>` +
-          `<span class="qs-badge">Recommended</span>`;
+        head.innerHTML = `<span class="qs-title">${qs.title || 'Quick setup'}</span>`;
         panel.appendChild(head);
         if (qs.sub) panel.appendChild(el('p', 'qs-sub', qs.sub));
         const qblocks = el('div', 'blocks');

@@ -1,0 +1,65 @@
+{
+  "id": "claude-desktop",
+  "headerCard": {
+    "variant": "info",
+    "icon": "stars",
+    "title": "Requires laptop for setup",
+    "html": "Works everywhere once connected."
+  },
+  "steps": [
+    {
+      "type": "step",
+      "n": 1,
+      "html": "Open claude.ai in your laptop browser",
+      "image": "assets/guides/quick/v2/claude-desktop/step-1.png"
+    },
+    {
+      "type": "step",
+      "n": 2,
+      "html": "Click Customize in the left sidebar",
+      "image": "assets/guides/quick/v2/claude-desktop/step-2.png"
+    },
+    {
+      "type": "step",
+      "n": 3,
+      "html": "Select Connectors from the top menu",
+      "image": "assets/guides/quick/v2/claude-desktop/step-3.png"
+    },
+    {
+      "type": "step",
+      "n": 4,
+      "html": "Search for “NeoSapien”",
+      "image": "assets/guides/quick/v2/claude-desktop/step-4.png"
+    },
+    {
+      "type": "step",
+      "n": 5,
+      "html": "Open the NeoSapien Plugin",
+      "image": "assets/guides/quick/v2/claude-desktop/step-5.png"
+    },
+    {
+      "type": "step",
+      "n": 6,
+      "html": "Click “Add”",
+      "image": "assets/guides/quick/v2/claude-desktop/step-6.png"
+    },
+    {
+      "type": "step",
+      "n": 7,
+      "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
+      "image": "assets/guides/quick/v2/claude-desktop/step-7.png"
+    },
+    {
+      "type": "step",
+      "n": 8,
+      "html": "Open chat, enable NeoSapien &amp; try your first prompt: “What do you know about me from Neosapien?”",
+      "image": "assets/guides/quick/v2/claude-desktop/step-8.png"
+    },
+    {
+      "type": "step",
+      "n": 9,
+      "html": "Congrats NeoSapien is now connected to Claude.",
+      "image": "assets/guides/quick/v2/claude-desktop/step-9.png"
+    }
+  ]
+}
