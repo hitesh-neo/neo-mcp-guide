@@ -402,7 +402,7 @@ a { color: var(--primary); text-decoration: none; }
 }
 .step-instr { font-size: 16px; letter-spacing: -0.04em; line-height: 1.35; color: var(--text); }
 .step-instr b { font-weight: 500; }
-.step-instr a { color: var(--text); text-decoration: underline; text-underline-offset: 2px; }
+.step-instr a { color: var(--primary); text-decoration: underline; text-underline-offset: 2px; }
 .step-instr .grad { -webkit-text-fill-color: transparent; }
 .step-instr ul { margin: 0; padding-left: 20px; }
 
@@ -662,6 +662,7 @@ figure.image { margin: 0; }
   }
   .step-card .card-details {
     flex: 1 1 auto;
+    min-width: 0;
     justify-content: center;
     padding: 24px;
   }
