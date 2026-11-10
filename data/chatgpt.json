@@ -71,7 +71,7 @@
           "type": "step",
           "n": 10,
           "html": "Sign in with your NeoSapien account (may differ from ChatGPT account)",
-          "image": "assets/guides/chatgpt/step-9.png"
+          "image": "assets/guides/quick/v2/auth-signin.png"
         },
         {
           "type": "step",
@@ -196,7 +196,7 @@
             "type": "step",
             "n": 5,
             "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
-            "image": "assets/guides/quick/v2/chatgpt-web/step-5.png"
+            "image": "assets/guides/quick/v2/auth-signin.png"
           },
           {
             "type": "step",
@@ -280,7 +280,7 @@
           "type": "step",
           "n": 10,
           "html": "Sign in with your NeoSapien account",
-          "image": "assets/guides/chatgpt-desktop/step-9.png"
+          "image": "assets/guides/quick/v2/auth-signin.png"
         },
         {
           "type": "step",
@@ -405,7 +405,7 @@
             "type": "step",
             "n": 5,
             "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
-            "image": "assets/guides/quick/v2/chatgpt-desktop/step-5.png"
+            "image": "assets/guides/quick/v2/auth-signin.png"
           },
           {
             "type": "step",

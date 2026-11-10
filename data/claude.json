@@ -59,7 +59,7 @@
           "type": "step",
           "n": 8,
           "html": "Sign in to NeoSapien when prompted (OAuth)",
-          "image": "assets/guides/claude-web/step-7.png"
+          "image": "assets/guides/quick/v2/auth-signin.png"
         },
         {
           "type": "step",
@@ -196,7 +196,7 @@
             "type": "step",
             "n": 7,
             "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
-            "image": "assets/guides/quick/v2/claude-web/step-7.png"
+            "image": "assets/guides/quick/v2/auth-signin.png"
           },
           {
             "type": "step",
@@ -280,7 +280,7 @@
           "n": 8,
           "title": "Sign in to NeoSapien when prompted (OAuth)",
           "html": "Sign in to NeoSapien when prompted (OAuth)",
-          "image": "assets/guides/claude-app/step-7.png"
+          "image": "assets/guides/quick/v2/auth-signin.png"
         },
         {
           "type": "step",
@@ -419,7 +419,7 @@
             "type": "step",
             "n": 7,
             "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
-            "image": "assets/guides/quick/v2/claude-desktop/step-7.png"
+            "image": "assets/guides/quick/v2/auth-signin.png"
           },
           {
             "type": "step",
@@ -474,7 +474,7 @@
           "type": "step",
           "n": 4,
           "html": "Sign in to NeoSapien when prompted (OAuth) &amp; Run <b>claude mcp list</b> or <b>claude mcp get neosapien</b> in terminal to verify the status.",
-          "image": "assets/guides/quick/v2/claude-code/step-4.png"
+          "image": "assets/guides/quick/v2/auth-signin.png"
         },
         {
           "type": "step",
