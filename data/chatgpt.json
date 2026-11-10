@@ -195,12 +195,18 @@
           {
             "type": "step",
             "n": 5,
+            "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
+            "image": "assets/guides/quick/v2/chatgpt-web/step-5.png"
+          },
+          {
+            "type": "step",
+            "n": 6,
             "html": "Open chat, enable NeoSapien &amp; try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
             "image": "assets/guides/quick/v2/chatgpt-web/step-6.png"
           },
           {
             "type": "step",
-            "n": 6,
+            "n": 7,
             "html": "Congrats NeoSapien is now connected to ChatGPT.",
             "image": "assets/guides/quick/v2/chatgpt-web/step-7.png"
           }
@@ -398,12 +404,18 @@
           {
             "type": "step",
             "n": 5,
+            "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
+            "image": "assets/guides/quick/v2/chatgpt-desktop/step-5.png"
+          },
+          {
+            "type": "step",
+            "n": 6,
             "html": "Open chat, enable NeoSapien &amp; try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
             "image": "assets/guides/quick/v2/chatgpt-desktop/step-6.png"
           },
           {
             "type": "step",
-            "n": 6,
+            "n": 7,
             "html": "Congrats NeoSapien is now connected to ChatGPT.",
             "image": "assets/guides/quick/v2/chatgpt-desktop/step-7.png"
           }

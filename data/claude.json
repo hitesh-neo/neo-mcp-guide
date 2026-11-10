@@ -195,12 +195,18 @@
           {
             "type": "step",
             "n": 7,
+            "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
+            "image": "assets/guides/quick/v2/claude-web/step-7.png"
+          },
+          {
+            "type": "step",
+            "n": 8,
             "html": "Open chat, enable NeoSapien &amp; try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
             "image": "assets/guides/quick/v2/claude-web/step-8.png"
           },
           {
             "type": "step",
-            "n": 8,
+            "n": 9,
             "html": "Congrats NeoSapien is now connected to Claude.",
             "image": "assets/guides/quick/v2/claude-web/step-9.png"
           }
@@ -412,12 +418,18 @@
           {
             "type": "step",
             "n": 7,
+            "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
+            "image": "assets/guides/quick/v2/claude-desktop/step-7.png"
+          },
+          {
+            "type": "step",
+            "n": 8,
             "html": "Open chat, enable NeoSapien &amp; try your first prompt: “<span class=\"grad\">What do you know about me from Neosapien?</span>”",
             "image": "assets/guides/quick/v2/claude-desktop/step-8.png"
           },
           {
             "type": "step",
-            "n": 8,
+            "n": 9,
             "html": "Congrats NeoSapien is now connected to Claude.",
             "image": "assets/guides/quick/v2/claude-desktop/step-9.png"
           }
@@ -461,7 +473,8 @@
         {
           "type": "step",
           "n": 4,
-          "html": "Run <b>claude mcp list</b> or <b>claude mcp get neosapien</b> in terminal to verify the status."
+          "html": "Sign in to NeoSapien when prompted (OAuth) &amp; Run <b>claude mcp list</b> or <b>claude mcp get neosapien</b> in terminal to verify the status.",
+          "image": "assets/guides/quick/v2/claude-code/step-4.png"
         },
         {
           "type": "step",
