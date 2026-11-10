@@ -1,0 +1,53 @@
+{
+  "id": "chatgpt-web",
+  "headerCard": {
+    "variant": "info",
+    "icon": "stars",
+    "title": "Requires laptop for setup",
+    "html": "Works everywhere once connected."
+  },
+  "steps": [
+    {
+      "type": "step",
+      "n": 1,
+      "html": "Open chatgpt.com in your laptop browser",
+      "image": "assets/guides/quick/v2/chatgpt-web/step-1.png"
+    },
+    {
+      "type": "step",
+      "n": 2,
+      "html": "Click on Plugins on the sidebar",
+      "image": "assets/guides/quick/v2/chatgpt-web/step-2.png"
+    },
+    {
+      "type": "step",
+      "n": 3,
+      "html": "Search for “NeoSapien” &amp; open the NeoSapien Plugin",
+      "image": "assets/guides/quick/v2/chatgpt-web/step-3.png"
+    },
+    {
+      "type": "step",
+      "n": 4,
+      "html": "Click on Install Plugin",
+      "image": "assets/guides/quick/v2/chatgpt-web/step-4.png"
+    },
+    {
+      "type": "step",
+      "n": 5,
+      "html": "Sign in with your NeoSapien account (may differ from your ChatGPT account)",
+      "image": "assets/guides/quick/v2/chatgpt-web/step-5.png"
+    },
+    {
+      "type": "step",
+      "n": 6,
+      "html": "Open chat, enable NeoSapien &amp; try your first prompt: “What do you know about me from Neosapien?”",
+      "image": "assets/guides/quick/v2/chatgpt-web/step-6.png"
+    },
+    {
+      "type": "step",
+      "n": 7,
+      "html": "Congrats NeoSapien is now connected to ChatGPT.",
+      "image": "assets/guides/quick/v2/chatgpt-web/step-7.png"
+    }
+  ]
+}

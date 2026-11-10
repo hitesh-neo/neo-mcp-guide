@@ -1,0 +1,47 @@
+{
+  "id": "claude-code",
+  "headerCard": {
+    "variant": "info",
+    "icon": "stars",
+    "title": "Requires laptop for setup",
+    "html": "Works everywhere once connected."
+  },
+  "steps": [
+    {
+      "type": "step",
+      "n": 1,
+      "html": "Ensure Claude Code CLI is installed: <b>npm install -g @anthropic-ai/claude-code</b>",
+      "image": "assets/guides/quick/v2/claude-code/step-1.png"
+    },
+    {
+      "type": "step",
+      "n": 2,
+      "html": "Open terminal, run Claude and then run this command: <b>claude mcp add --transport http neosapien https://api.neosapien.xyz/</b>",
+      "image": "assets/guides/quick/v2/claude-code/step-2.png"
+    },
+    {
+      "type": "step",
+      "n": 3,
+      "html": "Inside Claude code run <b>/mcp</b> → select neosapien → Authenticate - it opens a browser to sign in.",
+      "image": "assets/guides/quick/v2/claude-code/step-3.png"
+    },
+    {
+      "type": "step",
+      "n": 4,
+      "html": "Sign in to NeoSapien when prompted (OAuth) &amp; Run <b>claude mcp list</b> or <b>claude mcp get neosapien</b> in terminal to verify the status.",
+      "image": "assets/guides/quick/v2/claude-code/step-4.png"
+    },
+    {
+      "type": "step",
+      "n": 5,
+      "html": "Open a new Claude Code chat &amp; try your first prompt: “What do you know about me from Neosapien?”",
+      "image": "assets/guides/quick/v2/claude-code/step-5.png"
+    },
+    {
+      "type": "step",
+      "n": 6,
+      "html": "Congrats NeoSapien is now connected to Claude Code.",
+      "image": "assets/guides/quick/v2/claude-code/step-6.png"
+    }
+  ]
+}

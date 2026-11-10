@@ -387,12 +387,12 @@ a { color: var(--primary); text-decoration: none; }
 }
 .step-card.no-shot { background: var(--card-grad); }
 .card-shot {
-  aspect-ratio: 4 / 3;
   background: #fefefe;
-  display: flex; align-items: center; justify-content: center;
   overflow: hidden;
 }
-.card-shot img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* natural aspect ratio: 4:3 screenshots render as before, wide branded
+   covers (step 0 / congrats) keep their banner shape as designed */
+.card-shot img { width: 100%; height: auto; display: block; }
 .card-details { padding: 18px; display: flex; flex-direction: column; gap: 6px; }
 .step-label {
   font-size: 16px; font-weight: 500; letter-spacing: -0.04em; line-height: 1.1;
@@ -402,7 +402,7 @@ a { color: var(--primary); text-decoration: none; }
 }
 .step-instr { font-size: 16px; letter-spacing: -0.04em; line-height: 1.35; color: var(--text); }
 .step-instr b { font-weight: 500; }
-.step-instr a { color: var(--text); text-decoration: underline; text-underline-offset: 2px; }
+.step-instr a { color: var(--primary); text-decoration: underline; text-underline-offset: 2px; }
 .step-instr .grad { -webkit-text-fill-color: transparent; }
 .step-instr ul { margin: 0; padding-left: 20px; }
 
@@ -413,15 +413,6 @@ a { color: var(--primary); text-decoration: none; }
 }
 .qs-title {
   font-size: 20px; font-weight: 500; letter-spacing: -0.04em; color: var(--text);
-}
-.qs-badge {
-  font-size: 11px; font-weight: 500; letter-spacing: 0;
-  color: var(--primary);
-  background: rgba(0,241,160,0.1);
-  border: 1px solid rgba(0,241,160,0.25);
-  border-radius: 999px;
-  padding: 3px 10px;
-  white-space: nowrap;
 }
 .qs-sub {
   margin: -10px 0 0;
@@ -449,6 +440,34 @@ a { color: var(--primary); text-decoration: none; }
 .acc-body { display: none; padding: 4px 16px 20px; }
 .accordion.open .acc-body { display: block; animation: fadeRise var(--dur-swap) var(--ease-out); }
 .acc-head:active { background: rgba(255,255,255,0.02); }
+
+/* direct-link row inside a step card */
+.step-link {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: 6px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border-dashed);
+  min-width: 0;
+}
+.step-link a {
+  flex: 1 1 auto; min-width: 0;
+  font-size: 13px; letter-spacing: -0.01em;
+  color: var(--primary);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.step-link a:active { opacity: 0.7; }
+.link-copy {
+  flex: 0 0 auto;
+  width: 28px; height: 28px;
+  display: grid; place-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--border-2);
+  background: rgba(255,255,255,0.03);
+  color: var(--muted);
+  cursor: pointer;
+}
+.link-copy svg { width: 15px; height: 15px; display: block; }
+.link-copy:active { color: var(--primary); transform: scale(0.92); }
 
 /* standalone image block */
 .shot {
@@ -639,10 +658,11 @@ figure.image { margin: 0; }
   .step-card { display: flex; align-items: stretch; }
   .step-card .card-shot {
     flex: 0 0 62%;
-    aspect-ratio: 4 / 3;
+    align-self: center;
   }
   .step-card .card-details {
     flex: 1 1 auto;
+    min-width: 0;
     justify-content: center;
     padding: 24px;
   }

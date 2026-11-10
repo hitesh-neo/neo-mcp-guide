@@ -33,7 +33,7 @@
       "n": 3,
       "title": "Sign in with the NeoSapien account",
       "html": "Sign in with the NeoSapien account<br><br><span class=\"muted\">(This can be different from your ChatGPT account)</span>",
-      "image": "assets/guides/others/step-2.png"
+      "image": "assets/guides/quick/v2/auth-signin.png"
     },
     {
       "type": "step",
